@@ -54,4 +54,16 @@ fun main(args: Array<String>) {
         println("Variable: $x")
     }
 
+    // continue and break
+
+    for(n in 1..8){
+        if(n == 5) continue;
+        println(n)
+    }
+
+    for(n in 1..5){
+        if(n == 5) break;
+        println(n)
+    }
+
 }
