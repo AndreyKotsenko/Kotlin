@@ -10,4 +10,6 @@ class NewClass : MainProvider() {
         super.printInfo(user)
         println("Text from class NewClass")
     }
+
+    //override fun printName(){}  // can't override 'cause it final method in MainProvider class
 }

@@ -25,4 +25,8 @@ open class MainProvider: UserInfoProvider, DbConnection {
     override fun getConnection(): String {
         return db
     }
+
+    final fun printName(name: String) {
+        println(name)
+    }
 }

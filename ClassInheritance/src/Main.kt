@@ -27,6 +27,10 @@ fun main(args: Array<String>) {
         Animals.BEAR -> println(animal.toLowerCase())
         else -> println("Something else")
     }
+
+    var sparrow: Birds = Sparrow()
+    sparrow.sound()
+    println("Fly: ${sparrow.isFly}")
 }
 
 fun checkDataTypes(obj: UserInfoProvider) {
